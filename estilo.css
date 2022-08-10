@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    width: 100%;
+    background-color: #2d3142;
+    display: flex;
+    justify-content: flex-end;/*coloca do lado direito*/				
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    align-items: stretch;/*colocando um do lado do outro*/
+}
+li{
+    list-style: none;
+    display: flex;
+    align-items: center;/*centralizado em relação a altura do topo*/
+    height: 50px;
+}
+li a{
+    padding: 0 26px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: #fff;
+}
+li a:hover{
+    background-color: #fff;
+    color: #D36833;
+}
+
+.main_cta{
+    width: 100%;
+    background-image: url('./img/inicio01.jpg');
+    background-color: #2d3142;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; /*adequa a imagem ao tamanho da caixa*/
+}
+.main_cta .main_cta_content{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.main_cta .main_cta_content h1{
+    font-size: 3em;
+    color: color: white; text-shadow: white 0.1em 0.1em 0.2em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.main_cta .main_cta_content p{
+    font-size: 1.875em;
+    color: color: white; text-shadow: white 0.1em 0.1em 0.2em;
+    font-weight: 300;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.main_cta .main_cta_content .btn{
+    background-color: #d36833;
+    color: color: white; text-shadow: white 0.1em 0.1em 0.2em;
+    font-size: 0.8em;
+    padding: 10px 40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;border-radius: 5px;
+}
+
+.main_cta .main_cta_content .main_cta_content_spacer{
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 160px 40px;
+}
+
+
+
+/*--------------------------------*/
+.main_marmitas{
+    max-width: calc(1300px - 40px);
+    padding: 0 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; /*espaçamento entre elementos*/
+    flex-wrap: wrap;/*quebrar o conteudo e colocar na linha de baixo*/
+}
+
+.main_marmitas .main_marmitas_header{
+    flex-basis: 100%;
+    margin: 30px 0;
+}
+
+.main_marmitas .main_marmitas_header h1{
+    color: #333;
+    margin-bottom: 5px;
+    font-size: 1.8em;
+}
+.main_marmitas article{
+    opacity: 0.85;
+    flex-basis: calc(25% - 20px);
+    margin-bottom: 30px;
+}
+.main_marmitas article:hover{
+    opacity: 1;
+}
+
+.main_marmitas article img{
+    width: 100%;
+}
+
+.main_marmitas article p{
+    margin: 10px 0;
+}
+
+.main_marmitas article .category{
+    font-size: 0.875em;
+    color: #d36833;
+}
+
+.main_marmitas article h2{
+    font-weight: 500;
+    font-size: 1.3em;
+}
+
+.main_marmitas article h2 a{
+    color: #333;
+}
+
+
+
+.main_suport{
+    width: 100%;
+    background-color: #2d3142;
+    margin: 40px 0;
+}
+
+.main_suport_content{
+    max-width: calc(1300px - 40px);
+    padding: 40px 20px;
+    margin: 0 auto;
+    display: flex;
+}
+
+footer{
+	text-align: center;		
+	color: black;
+	font-size: 0.8em;
+}
+.detalhes{
+	
+	width: 50%;
+    padding: 20px;
+    margin: auto auto;
+    justify-content: center; /*espaçamento entre elementos*/
+    flex-wrap: wrap;/*quebrar o conteudo e colocar na linha de baixo*/
+}
+.detalhes img{
+	width: 70%;
+}
+.detalhes h2{
+	padding-top: 5px;
+}
+.detalhes p{
+	padding-top: 5px;
+}
+.detalhes h4{
+	padding-top: 5px;
+}
